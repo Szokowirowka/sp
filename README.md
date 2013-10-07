@@ -7,7 +7,7 @@ passwd
 ```
 
 
-Prosty program w C:
+Prosty program w c:
 ```c
 main() {
   printf("hello world");
