@@ -2,7 +2,7 @@
 
 Tekst wpisujemy w notacji [Markdown] [podstawy markdown]. 
 
-Aby zmienić hasło należy na terminalu wpisać:
+Aby zmienić hasło należy na terminalu wpisac:
 
 ```sh
 passwd
