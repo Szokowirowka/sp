@@ -20,3 +20,8 @@ mkdir wazne-sprawy
 cd dom/wazne-sprawy
 touch rachunki.txt
 ```
+4\. Będąc w katalogu wazne-sprawy skopiuj plik rachunki.txt do katalogu zrealizowane.
+
+```sh
+cp rachunki.txt ../../praca/zlecenia/zrealizowane
+```
