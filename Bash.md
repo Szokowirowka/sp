@@ -11,6 +11,12 @@ mkdir dom -p nauka/{c,logo,pascal} praca/{dokumenty,zlecenia/{niezrealizowane,zr
 
 ```sh
 cd dom 
-touch wazne-sprawy.txt
-cd ...
+mkdir wazne-sprawy
+
+```
+3\. Wejdź do katalogu wazne-sprawy i utwórz tam pusty plik rachunki.txt.
+
+```sh
+cd dom/wazne-sprawy
+touch rachunki.txt
 ```
