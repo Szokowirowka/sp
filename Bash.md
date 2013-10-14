@@ -8,3 +8,7 @@ mkdir ...
 ```
 
 2\. Przejdź do katalogu dom i utwórz katalog wazne-sprawy.
+
+```sh
+cd...
+```
