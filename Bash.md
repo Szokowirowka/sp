@@ -74,5 +74,5 @@ cal
 
 11\.Jaki był dzień tygodnia 25 maja 1975 r.
 ```sh
-date -d 1975-05-25
+date -d 1975-05-25 +%A
 ```
