@@ -24,4 +24,15 @@ mv dom/wazne-sprawy praca
 ```bash
 tar -cf temp.tar temp
 ```
-7\. 
+7\. Usuń katalog temp
+```bash
+rm -r temp
+```
+8\. Odtwórz z archiwum katalog temp. (unzip i tar)
+```
+tar -xf temp.tar
+```
+9\. Posprzątaj na swoim koncie.
+```
+rm temp.tar
+mv praca/wazne-sprawy dom
