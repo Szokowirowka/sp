@@ -22,6 +22,7 @@ mv dom/wazne-sprawy praca
 ```
 6\. Zarchiwizuj cały katalog temp. (zip i tar)
 ```bash
+zip -r temp.zip temp
 tar -cf temp.tar temp
 ```
 7\. Usuń katalog temp
@@ -30,9 +31,11 @@ rm -r temp
 ```
 8\. Odtwórz z archiwum katalog temp. (unzip i tar)
 ```
+unzip temp.zip
 tar -xf temp.tar
 ```
 9\. Posprzątaj na swoim koncie.
 ```
+rm temp.zip
 rm temp.tar
 mv praca/wazne-sprawy dom
