@@ -31,3 +31,20 @@ tail -n 7 /etc/passwd | head -n 3
 
 6\.Wyświetl zawartość pliku /etc/passwd w jednej linii
 ```bash
+cat /etc/passwd | tr -d "\n"
+```
+
+7\.Za pomocą filtru tr wykonaj modyfikację pliku plik.txt, polegającą na umieszczeniu każdego słowa w osobnej linii.
+```bash
+
+```
+
+8\. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
+```bash
+ls -aA1 /etc/passwd | wc -l
+```
+
+9\.Napisać polecenie zliczające ilość znaków z pierwszych trzech linii pliku /etc/passwd
+```bash
+head -n 3 /etc/passwd | wc -c
+```
