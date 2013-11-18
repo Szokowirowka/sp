@@ -8,6 +8,7 @@ ls -l | tr '[a-z]' '[A-Z]'
 2\.Wyświetl listę praw dostępu do plików w aktualnym katalogu, ich rozmiar i nazwę.
 ```bash
 ls -l | awk '{print $1,$5,$8}'
+ls -goF -h | tr -s " " | cut -f 1,3,7 -d " " | sed -e '/[/]/d' | tr " " "\t"
 ```
 
 3\. Wyświetl listę plików w aktualnym katalogu, posortowaną według rozmiaru pliku.
