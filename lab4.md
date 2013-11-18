@@ -20,11 +20,13 @@ ls --sort=size -l
 4\. Wyświetl zawartość pliku /etc/passwd posortowaną według numerów UID w kolejności od największego do najmniejszego.
 ```bash
 sort -t : -n -k3 -r /etc/passwd
+cat /etc/passwd | sort -t : -k 3 -nr
 ```
 
 5\.Wyświetl zawartość pliku /etc/passwd posortowaną najpierw według numerów GID w kolejności od największego do najmniejszego, a następnie UID
 ```bash
 sort -t : -k4 -r /etc/passwd | sort -t : -k3
+cat /etc/passwd | sort -t ":" -k4,3 -nr
 ```
 
 6\.Podaj liczbę plików każdego użytkownika.
@@ -35,7 +37,6 @@ sort -t : -k4 -r /etc/passwd | sort -t : -k3
 7\. Sporządź statystykę praw dostępu (dla każdego z praw dostępu podaj ile razy zostało ono przydzielone
 ```bash
 find -printf "%m\n" | sort | uniq -c
-3 razy ?
 ```
 
 8\.Czy potrafisz odpowiedzieć jaki będzie efekt wykonania poniższych poleceń?
