@@ -24,4 +24,5 @@ rm x??
 6\. Skonstruuj polecenie tworzące katalog, którego nazwą będzie aktualna (w momencie wywołania) systemowa data w formacie rrrr-mm-dd.
 ```bash
 mkdir `date +%Y-%m-%d`
+mkdir $(date +%Y-%m-%d)
 ```
